@@ -4,9 +4,11 @@ To install, simply drop the **minifyhtml** folder into the plugins directory: ``
 
 
 No additional set up is required.
+
 However, if you prefer to minify based on the current enviornment, you can add the option in your config file.
 
 ``c::set('MinifyHTML', FALSE);``
+
 ``c::set('MinifyHTML', TRUE);``
 
 
