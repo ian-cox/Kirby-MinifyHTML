@@ -16,5 +16,12 @@ If you prefer to minify based on the current enviornment, you can add the option
 This is a temporary fix until a hook can be used in the plugin.
 More info about that [here](https://github.com/getkirby/kirby/issues/120).
 
+## Known Issues
+Plugin causes `f::download()` and `$file->download()` to break. 
+The files themselves are getting minified before download which is leading to corrupt files.
 
+
+### Credits
 Many thanks to Stephen Clay for his excellent [HTML minifier class](https://code.google.com/p/minify/source/browse/min/lib/Minify/HTML.php).
+
+Also thanks to @lukasbestle @iksi and @shoesforindustry
