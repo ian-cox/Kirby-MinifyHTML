@@ -1,7 +1,10 @@
 # Kirby Minify HTML Plugin
 
-To install, simply drop the **minifyhtml** folder into the plugins directory: ``site/plugins``.
+To install you have three options:
 
+- Using the `kirby-cli`. Run `kirby plugin:install ian-cox/Kirby-MinifyHTML`.
+- Using a `git submodule`. Run `git submodule add <REPOSITORY_URL> site/plugins/minifyhtml`.
+- The old school way. Simply create a folder called **minifyhtml** into the plugins directory: ``site/plugins`` and drop the files on it.
 
 No additional set up is required.
 
@@ -17,7 +20,7 @@ This is a temporary fix until a hook can be used in the plugin.
 More info about that [here](https://github.com/getkirby/kirby/issues/120).
 
 ## Known Issues
-Plugin causes `f::download()` and `$file->download()` to break. 
+Plugin causes `f::download()` and `$file->download()` to break.
 The files themselves are getting minified before download which is leading to corrupt files.
 
 
