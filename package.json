@@ -1,5 +1,5 @@
 {
-  "name": "Kirby-MinifyHTML",
+  "name": "minifyhtml",
   "description": "A plugin to minify html output from the Kirby CMS",
   "author": "Ian Cox",
   "version": "0.0.1",
