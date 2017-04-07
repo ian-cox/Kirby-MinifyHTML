@@ -13,6 +13,10 @@ If you prefer to minify based on the current enviornment, you can add the option
 
 ``c::set('MinifyHTML', TRUE);``
 
+I recommend this option:
+
+``if (kirby()->site()->user()) c::set('MinifyHTML', false);``
+
 
 **Disclaimer:** *While the plugin is working without issue for me, further testing is still needed as there may be conflicts with Kirby’s internal output buffer method.*
 
