@@ -1,6 +1,6 @@
 <?php
 
-if (!c::get('MinifyHTML')) {
+if (c::get('MinifyHTML', true)) {
 	require_once(__DIR__ . DS . 'library' . DS . 'Minify_HTML.php');
 
 	function minifyhtml($buffer)
